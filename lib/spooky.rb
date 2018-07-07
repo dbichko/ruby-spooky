@@ -1,4 +1,5 @@
 require 'spooky/version'
+require 'spooky/spooky'
 
-module Spooky
+module SpookyHashV2
 end

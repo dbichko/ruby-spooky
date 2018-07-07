@@ -1,3 +1,3 @@
-class SpookyHashV2
+module SpookyHashV2
   VERSION = '0.0.1'
 end
