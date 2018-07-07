@@ -10,4 +10,5 @@ end
 
 task :build => :compile
 task :clear => :clobber
+task :rebuild => [:clear, :compile, :spec]
 task :default => [:compile, :spec]
