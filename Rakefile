@@ -8,5 +8,6 @@ Rake::ExtensionTask.new('spooky') do |ext|
   ext.lib_dir = 'lib/spooky'
 end
 
+task :build => :compile
 task :clear => :clobber
 task :default => [:compile, :spec]
