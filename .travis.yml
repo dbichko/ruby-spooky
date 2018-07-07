@@ -3,9 +3,9 @@ language: ruby
 cache: bundler
 os:
   - linux
-#  - osx
+  - osx
 rvm:
+  - 2.6
   - 2.5
-#  - 2.6
-#  - 2.0
+  - 2.0
 before_install: gem install bundler -v 1.16.2
